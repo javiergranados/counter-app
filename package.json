@@ -1,7 +1,13 @@
 {
   "name": "counterapp",
   "version": "0.1.0",
+  "description": "Public web for wallacoin",
+  "license": "SEE LICENSE IN LICENSE",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiergranados/counter-app"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -22,8 +28,12 @@
     "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^26.6.3",
     "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.66.2",
+    "prettier": "^2.5.0",
     "react-test-renderer": "17.0.2",
     "typescript": "^4.4.4"
   },

@@ -1,6 +1,8 @@
 # OSX
 #
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Xcode
 #
@@ -35,6 +37,15 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# yarn
+#
+yarn.lock
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # BUCK
 buck-out/
