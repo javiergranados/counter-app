@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, TouchableNativeFeedback, View, Text } from 'react-native';
+import { StyleSheet, Platform, TouchableOpacity, TouchableNativeFeedback, View, Text } from 'react-native';
 
 interface FloatingActionButtonProps {
   title: string;
@@ -8,6 +8,16 @@ interface FloatingActionButtonProps {
 }
 
 const FloatingActionButton: React.FC<FloatingActionButtonProps> = ({ title, position = 'right', handleOnPress }) => {
+  if (Platform.OS === 'ios') {
+    return (
+      <TouchableOpacity onPress={handleOnPress} activeOpacity={0.7} style={[styles.fabPosition, styles[position]]}>
+        <View style={styles.fabView}>
+          <Text style={styles.fabText}>{title}</Text>
+        </View>
+      </TouchableOpacity>
+    );
+  }
+
   return (
     <View style={[styles.fabPosition, styles[position]]}>
       <TouchableNativeFeedback
