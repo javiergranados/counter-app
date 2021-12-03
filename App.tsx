@@ -6,7 +6,7 @@ import BoxObjectModelScreen from './src/screens/BoxObjectModelScreen';
 const App = () => {
   // return <CounterScreen />;
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <BoxObjectModelScreen />
     </SafeAreaView>
   );
