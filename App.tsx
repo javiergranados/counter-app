@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native';
 // import DimensionsScreen from './src/screens/DimensionsScreen';
 // import PositionsScreen from './src/screens/PositionsScreen';
 // import FlexScreen from './src/screens/FlexScreen';
-import TaskScreen from './src/screens/TaskScreens/09';
+import TaskScreen from './src/screens/TaskScreens/10';
 
 const App = () => {
   // return <CounterScreen />;
