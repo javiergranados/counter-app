@@ -15,24 +15,23 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28435b',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   boxPurple: {
     width: 100,
-    height: 100,
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#5856d6',
   },
   boxOrange: {
     width: 100,
-    height: 100,
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#f0a23b',
   },
   boxBlue: {
     width: 100,
-    height: 100,
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#28c4d9',
