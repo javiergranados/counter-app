@@ -14,22 +14,22 @@ const FlexScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row',
     backgroundColor: '#28C4D9',
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
   },
   box1: {
-    flex: 3, // 3 + 2 + 1 = 6
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
   },
   box2: {
-    flex: 2,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
   },
   box3: {
-    flex: 1,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
